@@ -2,7 +2,8 @@
 spring cloud를 이용하여 msa 구축 연습을 해보자
 
 ## introduction
-이도원님의 [https://inf.run/2Vpz](Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA)) 강의를 듣고 연습해보는 레포지토리.
+이도원님의 [Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA)](https://inf.run/2Vpz) 강의를 듣고 연습해보는 레포지토리.
+
 
 ## motivation
 - 모놀로식 애플리케이션 경험만 존재하기 때문에 마이크로서비스 애플리케이션 환경도 맛보기 위해서.
