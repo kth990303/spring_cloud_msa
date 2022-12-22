@@ -38,6 +38,12 @@ dependencyManagement {
     }
 }
 
+bootRun {
+    // gradle terminal 실행 시 server port 설정 가능
+    // ./gradlew bootRun -Pserver.port={server.port}
+    systemProperty "server.port", findProperty("server.port")
+}
+
 tasks.named('test') {
     useJUnitPlatform()
 }
